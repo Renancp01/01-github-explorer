@@ -17,9 +17,7 @@ module.exports = {
 
     //Configuração devServer
     devServer: {
-        static: {
-            directory: path.resolve(__dirname, 'public'),
-        }
+        static: path.resolve(__dirname, 'public')
     },
 
     //Validar o porque
